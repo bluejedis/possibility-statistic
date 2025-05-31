@@ -1,12 +1,9 @@
-# 00 随机事件 与 概率
+# 随机事件 与 概率
 
 <ul>
 
-## Basic:
 
-<ul>
-
-### 0 基本<span style="color:darkorange;">概念</span>
+## 0 基本<span style="color:darkorange;">概念</span>
 
 <ul>
 
@@ -45,9 +42,9 @@
 
 </ul>
 
-</ul>
 
-### 1 事件的<span style="color:blue;">关系</span>与<span style="color:green;">运算</span>
+
+## 1 事件的<span style="color:blue;">关系</span>与<span style="color:green;">运算</span>
 
 <ul>
 
@@ -220,11 +217,7 @@
 
 </ul>
 
-# 01 <span style="color:blue;">一维</span>随机变量 及其 分布
-
-<ul>
-
-1.  concept
+# <span style="color:blue;">一维</span>随机变量 及其 分布
 
 <ul>
 
@@ -280,57 +273,57 @@
 
 <ul>
 
-1.  **(1) 离散型随机变量 | 概率分布**
-    *   a. 离散型
-        *   $X$ 只能取有限个
-            *   ![](https://api2.mubu.com/v3/document_image/dd8216b1-8d7f-4277-b77c-e6e3223c3e67-15201174.jpg)
-    *   b. 分布列(分布律、**概率分布**)
-        *   1) 表示形式
-            *   记为<span style="color:blue;">$P\{X=x_i\}=p_i$</span>
-                *   $i=1,2,\dots$
-            *   <span style="color:green;">常用</span> <span style="color:blue;">表格</span>/矩阵 表示
-                *   ![](https://api2.mubu.com/v3/document_image/94acb166-0859-4b4f-be14-eb7b6b0bb7d7-15201174.jpg)
-                *   ![](https://api2.mubu.com/v3/document_image/f78cd6ff-265f-4c4c-aeac-9023d4026faa-15201174.jpg)
-        *   2) **数列** 是 离散型随机变量 的<u>概率分布 </u>的充要条件:
-            *   ![](https://api2.mubu.com/v3/document_image/5e0ca1b5-d521-43ed-b22a-33fd3cdeaad3-15201174.jpg)
-2.  **(2) <span style="color:darkorange;"><u>五大分布</u></span>**
-    *   按 概率分布type 分
-        *   **0—1分布**B(1.p)
-            *   设定
-                *   ![](https://api2.mubu.com/v3/document_image/31a27d44-f710-4be0-9cab-232a967215c8-15201174.jpg)
-                    *   即 ![](https://api2.mubu.com/v3/document_image/db932eb7-83f7-4cad-9ed9-5edd362fbd18-15201174.jpg)
-            *   称X服从参数为p的 **0-1分布**
-                *   记为
-                    *   ![](https://api2.mubu.com/v3/document_image/a659efad-9510-4374-b3c4-820616803e09-15201174.jpg)
-        *   **二项分布**B(n.p)
-            *   设定
-                *   X的 概率分布
-                    *   ![](https://api2.mubu.com/v3/document_image/7aa3b056-0c65-4526-9e30-ab0553457575-15201174.jpg)
-                        *   ![](https://api2.mubu.com/v3/document_image/6a5d76d0-69da-4878-bc19-4d47eadcdf3c-15201174.jpg)
-            *   称X服从参数为(n,p)的二项分布
-                *   //常与 n重伯努利实验一起运用
-                *   记为
-                    *   ![](https://api2.mubu.com/v3/document_image/11e9d0e8-042d-4fee-a73c-2118fb6cd4a4-15201174.jpg)
-        *   **泊松分布**P(λ)
-            *   设定
-                *   X的 **概率分布**
-                    *   ![](https://api2.mubu.com/v3/document_image/c845bca0-7d3d-45d1-8bc5-fd7e9c585e3d-15201174.jpg)
-                        *   ![](https://api2.mubu.com/v3/document_image/352aeb00-3d4b-4bb0-b631-1572a78cd7fc-15201174.jpg)
-            *   称X服从参数为λ的泊松分布
-                *   记为$X$~$p(\lambda)$
-        *   <u>**几何**</u>分布G(p)
-            *   设定
-                *   X的 **概率分布**
-                    *   ![](https://api2.mubu.com/v3/document_image/650657e6-0d95-4c67-ac77-494907ce10f4-15201174.jpg)
-                        *   ![](https://api2.mubu.com/v3/document_image/a8da1614-f4a9-4a04-af4a-0e6a4f588317-15201174.jpg)
-            *   称X服从参数为p的几何分布
-                *   记为$X$~$G(p)$
-        *   <u>**超几何**</u>分布H(n，N，M)
-            *   设定
-                *   ![](https://api2.mubu.com/v3/document_image/899d5710-7ca2-486f-aeed-a05431ddbee2-15201174.jpg)
-                    *   ![](https://api2.mubu.com/v3/document_image/52df4124-fd39-4330-9f00-28dfff42e8bc-15201174.jpg)
-            *   称X服从参数为(n，N，M) 的 超几何分布
-                *   记为$X$~H(n,N,M)
+###  **(1) 离散型随机变量 | 概率分布**
+*   a. 离散型
+    *   $X$ 只能取有限个
+        *   ![](https://api2.mubu.com/v3/document_image/dd8216b1-8d7f-4277-b77c-e6e3223c3e67-15201174.jpg)
+*   b. 分布列(分布律、**概率分布**)
+    *   1) 表示形式
+        *   记为<span style="color:blue;">$P\{X=x_i\}=p_i$</span>
+            *   $i=1,2,\dots$
+        *   <span style="color:green;">常用</span> <span style="color:blue;">表格</span>/矩阵 表示
+            *   ![](https://api2.mubu.com/v3/document_image/94acb166-0859-4b4f-be14-eb7b6b0bb7d7-15201174.jpg)
+            *   ![](https://api2.mubu.com/v3/document_image/f78cd6ff-265f-4c4c-aeac-9023d4026faa-15201174.jpg)
+    *   2) **数列** 是 离散型随机变量 的<u>概率分布 </u>的充要条件:
+        *   ![](https://api2.mubu.com/v3/document_image/5e0ca1b5-d521-43ed-b22a-33fd3cdeaad3-15201174.jpg)
+###  **(2) <span style="color:darkorange;"><u>五大分布</u></span>**
+*   按 概率分布type 分
+    *   **0—1分布**B(1.p)
+        *   设定
+            *   ![](https://api2.mubu.com/v3/document_image/31a27d44-f710-4be0-9cab-232a967215c8-15201174.jpg)
+                *   即 ![](https://api2.mubu.com/v3/document_image/db932eb7-83f7-4cad-9ed9-5edd362fbd18-15201174.jpg)
+        *   称X服从参数为p的 **0-1分布**
+            *   记为
+                *   ![](https://api2.mubu.com/v3/document_image/a659efad-9510-4374-b3c4-820616803e09-15201174.jpg)
+    *   **二项分布**B(n.p)
+        *   设定
+            *   X的 概率分布
+                *   ![](https://api2.mubu.com/v3/document_image/7aa3b056-0c65-4526-9e30-ab0553457575-15201174.jpg)
+                    *   ![](https://api2.mubu.com/v3/document_image/6a5d76d0-69da-4878-bc19-4d47eadcdf3c-15201174.jpg)
+        *   称X服从参数为(n,p)的二项分布
+            *   //常与 n重伯努利实验一起运用
+            *   记为
+                *   ![](https://api2.mubu.com/v3/document_image/11e9d0e8-042d-4fee-a73c-2118fb6cd4a4-15201174.jpg)
+    *   **泊松分布**P(λ)
+        *   设定
+            *   X的 **概率分布**
+                *   ![](https://api2.mubu.com/v3/document_image/c845bca0-7d3d-45d1-8bc5-fd7e9c585e3d-15201174.jpg)
+                    *   ![](https://api2.mubu.com/v3/document_image/352aeb00-3d4b-4bb0-b631-1572a78cd7fc-15201174.jpg)
+        *   称X服从参数为λ的泊松分布
+            *   记为$X$~$p(\lambda)$
+    *   <u>**几何**</u>分布G(p)
+        *   设定
+            *   X的 **概率分布**
+                *   ![](https://api2.mubu.com/v3/document_image/650657e6-0d95-4c67-ac77-494907ce10f4-15201174.jpg)
+                    *   ![](https://api2.mubu.com/v3/document_image/a8da1614-f4a9-4a04-af4a-0e6a4f588317-15201174.jpg)
+        *   称X服从参数为p的几何分布
+            *   记为$X$~$G(p)$
+    *   <u>**超几何**</u>分布H(n，N，M)
+        *   设定
+            *   ![](https://api2.mubu.com/v3/document_image/899d5710-7ca2-486f-aeed-a05431ddbee2-15201174.jpg)
+                *   ![](https://api2.mubu.com/v3/document_image/52df4124-fd39-4330-9f00-28dfff42e8bc-15201174.jpg)
+        *   称X服从参数为(n，N，M) 的 超几何分布
+            *   记为$X$~H(n,N,M)
 
 </ul>
 
@@ -338,91 +331,87 @@
 
 <ul>
 
-*   (1) 连续型随机变量 | 概率密度
-    *   a. 基本定义
-        *   由 <u>分布函数</u> <span style="color:blue;">type</span> <span style="color:green;">确定</span> X类型
-            *   $F(x)=\int_{-\infty}^x {f(t)} \,{\rm d}t$
-                *   $f(x)$ 是非负可积函数
+### (1) 连续型随机变量 | 概率密度
+*   a. 基本定义
+    *   由 <u>分布函数</u> <span style="color:blue;">type</span> <span style="color:green;">确定</span> X类型
+        *   $F(x)=\int_{-\infty}^x {f(t)} \,{\rm d}t$
+            *   $f(x)$ 是非负可积函数
+        *   称
+            *   <span style="color:blue;">X </span>为 <span style="color:green;"><u>连续</u></span><u>型 随机变量</u>
+            *   <span style="color:blue;">$f(x)$</span> 为X的 **概率密度函数**，简称 <span style="color:blue;">概率密度</span>
+                *   记为 $X$ ~ $f(x)$
+*   b. 性质
+    *   1) f(x)为 <span style="color:blue;">概率密度</span> 的<span style="color:green;">充要</span>条件
+        *   $f(x) \ge 0$ 且 $\int_{-\infty}^{+\infty}{f(x)}\,{\rm d}x = 1$
+            *   函数在 实数域积分=1
+    *   2) $X$ ~ $f(x)$
+        *   ① 对任意实数c，有$P{X=c}=0$
+        *   ② 对实数轴上任一集合B，有$P{x \in B }=\int_B f(x)\,{\rm d}x$
+            *   特别地
+                *   不管分布函数区间开闭， ![](https://api2.mubu.com/v3/document_image/64d435f3-e72e-48e8-aa48-dd832a4460e7-15201174.jpg)
+                *   均可 用 概率密度 在区间上的积分表示 ![](https://api2.mubu.com/v3/document_image/34ef9683-b1f9-46d2-973a-f77232596538-15201174.jpg)
+### (2) <span style="color:darkorange;">三大分布</span>
+*   由 概率密度<span style="color:green;">f(x)</span> 和 分布函数<span style="color:blue;">F(x) </span>共同确定 //仅正态分布 仅由f(x)确定
+    *   均匀分布 U(a,b)
+        *   ![](https://api2.mubu.com/v3/document_image/01762cd4-e32e-4ec2-9725-a5f13e974e1d-15201174.jpg)
+            *   ![](https://api2.mubu.com/v3/document_image/e6ba235d-de58-426b-a14a-b29e6b54ebc3-15201174.jpg)
+    *   指数分布 E(λ)
+        *   ![](https://api2.mubu.com/v3/document_image/0bf8b153-8b79-4841-b9cf-0ecea6bdfa85-15201174.jpg)
+            *   ![](https://api2.mubu.com/v3/document_image/13c9002d-1dc2-4c76-9775-65c07e11caf1-15201174.jpg)
+    *   <span style="color:blue;">正态</span>分布 $N(\mu,\sigma^2)$
+        *   a. 定义
+            *   概率密度
+                *   ![](https://api2.mubu.com/v3/document_image/5594b8b7-5baf-4202-a872-44bd88a7c0b5-15201174.jpg)
+                    *   其中
+                        *   ![](https://api2.mubu.com/v3/document_image/a0efb0f0-1699-45b7-b8c4-3da63077b992-15201174.jpg)
+                        *   ![](https://api2.mubu.com/v3/document_image/79a8c0d7-494f-42d9-b2c8-5a11a717a805-15201174.jpg)
             *   称
-                *   <span style="color:blue;">X </span>为 <span style="color:green;"><u>连续</u></span><u>型 随机变量</u>
-                *   <span style="color:blue;">$f(x)$</span> 为X的 **概率密度函数**，简称 <span style="color:blue;">概率密度</span>
-                    *   记为 $X$ ~ $f(x)$
-    *   b. 性质
-        *   1) f(x)为 <span style="color:blue;">概率密度</span> 的<span style="color:green;">充要</span>条件
-            *   $f(x) \ge 0$ 且 $\int_{-\infty}^{+\infty}{f(x)}\,{\rm d}x = 1$
-                *   函数在 实数域积分=1
-        *   2) $X$ ~ $f(x)$
-            *   ① 对任意实数c，有$P{X=c}=0$
-            *   ② 对实数轴上任一集合B，有$P{x \in B }=\int_B f(x)\,{\rm d}x$
-                *   特别地
-                    *   不管分布函数区间开闭， ![](https://api2.mubu.com/v3/document_image/64d435f3-e72e-48e8-aa48-dd832a4460e7-15201174.jpg)
-                    *   均可 用 概率密度 在区间上的积分表示 ![](https://api2.mubu.com/v3/document_image/34ef9683-b1f9-46d2-973a-f77232596538-15201174.jpg)
-*   **(2)** <span style="color:darkorange;">**三大分布**</span>
-    *   由 概率密度<span style="color:green;">f(x)</span> 和 分布函数<span style="color:blue;">F(x) </span>共同确定 //仅正态分布 仅由f(x)确定
-        *   均匀分布 U(a,b)
-            *   ![](https://api2.mubu.com/v3/document_image/01762cd4-e32e-4ec2-9725-a5f13e974e1d-15201174.jpg)
-                *   ![](https://api2.mubu.com/v3/document_image/e6ba235d-de58-426b-a14a-b29e6b54ebc3-15201174.jpg)
-        *   指数分布 E(λ)
-            *   ![](https://api2.mubu.com/v3/document_image/0bf8b153-8b79-4841-b9cf-0ecea6bdfa85-15201174.jpg)
-                *   ![](https://api2.mubu.com/v3/document_image/13c9002d-1dc2-4c76-9775-65c07e11caf1-15201174.jpg)
-        *   <span style="color:blue;">正态</span>分布 $N(\mu,\sigma^2)$
-            *   a. 定义
-                *   概率密度
-                    *   ![](https://api2.mubu.com/v3/document_image/5594b8b7-5baf-4202-a872-44bd88a7c0b5-15201174.jpg)
-                        *   其中
-                            *   ![](https://api2.mubu.com/v3/document_image/a0efb0f0-1699-45b7-b8c4-3da63077b992-15201174.jpg)
-                            *   ![](https://api2.mubu.com/v3/document_image/79a8c0d7-494f-42d9-b2c8-5a11a717a805-15201174.jpg)
-                *   称
-                    *   ① X 服从参数为$(\mu,\sigma^2)$ 的正态分布
-                        *   X 为 正态变量
-                    *   ② μ=0 σ=1时的 正态分布N（0,1）为 **标准正态分布**
-            *   f(x)**图像**
-                *   正态分布image
-                    *   ![](https://api2.mubu.com/v3/document_image/53e58d10-a026-4578-8730-12bc6b063e2f-15201174.jpg)
-                *   标准正态分布image
-                    *   ![](https://api2.mubu.com/v3/document_image/e738eafe-bae4-4b14-b554-2aed32f17275-15201174.jpg)
-                        *   概率密度 φ(x)
-                            *   ![](https://api2.mubu.com/v3/document_image/1bc0ab36-9050-4d64-abec-2cfe7385289c-15201174.jpg)
-                        *   分布函数 Φ(x)
-                            *   ![](https://api2.mubu.com/v3/document_image/72539321-9fe5-4e23-aada-33ec21d82c38-15201174.jpg)
-                        *   特点
-                            *   ① 分布函数Φ(x)
-                                *   ![](https://api2.mubu.com/v3/document_image/3e48b3e1-dbee-423a-b15c-7292d0b8289b-15201174.jpg)
-                                    *   ![](https://api2.mubu.com/v3/document_image/b978caf4-c600-4353-9b93-712246e167df-15201174.jpg)
-                            *   ② 上侧α分位数(上α分位点)
+                *   ① X 服从参数为$(\mu,\sigma^2)$ 的正态分布
+                    *   X 为 正态变量
+                *   ② μ=0 σ=1时的 正态分布N（0,1）为 **标准正态分布**
+        *   f(x)**图像**
+            *   正态分布image
+                *   ![](https://api2.mubu.com/v3/document_image/53e58d10-a026-4578-8730-12bc6b063e2f-15201174.jpg)
+            *   标准正态分布image
+                *   ![](https://api2.mubu.com/v3/document_image/e738eafe-bae4-4b14-b554-2aed32f17275-15201174.jpg)
+                    *   概率密度 φ(x)
+                        *   ![](https://api2.mubu.com/v3/document_image/1bc0ab36-9050-4d64-abec-2cfe7385289c-15201174.jpg)
+                    *   分布函数 Φ(x)
+                        *   ![](https://api2.mubu.com/v3/document_image/72539321-9fe5-4e23-aada-33ec21d82c38-15201174.jpg)
+                    *   特点
+                        *   ① 分布函数Φ(x)
+                            *   ![](https://api2.mubu.com/v3/document_image/3e48b3e1-dbee-423a-b15c-7292d0b8289b-15201174.jpg)
+                                *   ![](https://api2.mubu.com/v3/document_image/b978caf4-c600-4353-9b93-712246e167df-15201174.jpg)
+                        *   ② 上侧α分位数(上α分位点)
 
 </ul>
 
 </ul>
 
-3.  **3 ~** **<span style="color:darkorange;">函数</span>的分布**
+##  ~<span style="color:darkorange;">函数</span>的分布
 
 <ul>
 
-## A. 概念
-
-<ul>
-
-*   A. 随机变量函数 //
-    *   X、Y都是 随机变量,函数$y=g(x)$
-    *   称 $Y=g(x)$ 是 随机变量X的函数
-        *   eg.
-            *   ![](https://api2.mubu.com/v3/document_image/d372b870-6e64-4a97-b492-057717f8db9c-15201174.jpg)
-*   B. 随机变量函数的分布
-    *   1) 离散型→离散型
-        *   X是离散型 随机变量，Y也是离散型
-            *   X概率分布
-                *   ![](https://api2.mubu.com/v3/document_image/5091ad0b-d407-495c-a61c-a8e54058f59d-15201174.jpg)
-            *   Y概率分布
-                *   ![](https://api2.mubu.com/v3/document_image/443a381d-ca2a-4cbb-9bff-19020c2006e3-15201174.jpg)
-                *   即
-                    *   ![](https://api2.mubu.com/v3/document_image/92272db1-7c2a-43ba-87b6-64a8e7606a5e-15201174.jpg)
-    *   2) 连续型→连续型（混合型）
-        *   X、Y都是 连续型
-            *   X的f(x)与F(x)
-                *   ![](https://api2.mubu.com/v3/document_image/06a17111-80eb-412d-bda8-b6350bfb3b0d-15201174.jpg)
-            *   y的f(x)与F(x) //?用分布函数法求得
-                *   ![](https://api2.mubu.com/v3/document_image/9900fafa-64e0-4ea6-bc54-371d6213e2b6-15201174.jpg)
+### A. 随机变量函数 //
+*   X、Y都是 随机变量,函数$y=g(x)$
+*   称 $Y=g(x)$ 是 随机变量X的函数
+    *   eg.
+        *   ![](https://api2.mubu.com/v3/document_image/d372b870-6e64-4a97-b492-057717f8db9c-15201174.jpg)
+### B. 随机变量函数的分布
+*   1) 离散型→离散型
+    *   X是离散型 随机变量，Y也是离散型
+        *   X概率分布
+            *   ![](https://api2.mubu.com/v3/document_image/5091ad0b-d407-495c-a61c-a8e54058f59d-15201174.jpg)
+        *   Y概率分布
+            *   ![](https://api2.mubu.com/v3/document_image/443a381d-ca2a-4cbb-9bff-19020c2006e3-15201174.jpg)
+            *   即
+                *   ![](https://api2.mubu.com/v3/document_image/92272db1-7c2a-43ba-87b6-64a8e7606a5e-15201174.jpg)
+*   2) 连续型→连续型（混合型）
+    *   X、Y都是 连续型
+        *   X的f(x)与F(x)
+            *   ![](https://api2.mubu.com/v3/document_image/06a17111-80eb-412d-bda8-b6350bfb3b0d-15201174.jpg)
+        *   y的f(x)与F(x) //?用分布函数法求得
+            *   ![](https://api2.mubu.com/v3/document_image/9900fafa-64e0-4ea6-bc54-371d6213e2b6-15201174.jpg)
 
 </ul>
 
@@ -430,7 +419,7 @@
 
 </ul>
 
-# 02 <span style="color:green;">**多维**</span>**..**
+# <span style="color:green;">多维</span>.. 
 
 <ul>
 
@@ -771,7 +760,7 @@
 
 </ul>
 
-# 04 <span style="color:blue;">**数字**</span><span style="color:darkorange;">**特征**</span>
+# 03 <span style="color:blue;">数字</span><span style="color:darkorange;">特征</span>
 
 <ul>
 
@@ -935,7 +924,7 @@
 
 </ul>
 
-# 05 大数定律 与 <u>中心极限</u>定理
+# 04 大数定律 与 <u>中心极限</u>定理
 
 <ul>
 
@@ -992,7 +981,7 @@
 
 </ul>
 
-# 06 数理统计
+# 05 数理统计
 
 <ul>
 
