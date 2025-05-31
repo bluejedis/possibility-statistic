@@ -431,43 +431,43 @@
 
 <ul>
 
-*   A. 概念
-    *   1) n维随机变量
-        *   <span style="color:blue;">n</span>个<span style="color:blue;">随机变量</span>$X_1,X_2,\dots,X_n$定义在 同一个 样本空间Ω 上
-        *   称 其 为 <u>n维</u>**随机变量** or <u>n维 </u>随机<span style="color:darkorange;">向量</span>
-            *   $X_i$ 称为 第i个分量
-    *   2) 二维随机变量
-        *   当n=2时，记为 $(X,Y)$
-*   B. 联合<span style="color:darkorange;">分布函数</span>
-    *   1) 概念
-        *   ① n元函数:
-            *   ![](https://api2.mubu.com/v3/document_image/cc0cc246-2e31-406a-8a7f-d06b842fbc48-15201174.jpg)
-                *   n维随机变量的 联合<span style="color:darkorange;">分布函数</span>
-        *   ② 当n=2时，二元函数
-            *   ![](https://api2.mubu.com/v3/document_image/74687f79-2716-4ad8-9ef3-ae93d2424bb7-15201174.jpg)
-            *   记为 $(X,Y)$~$F(x,y)$
-            *   F(x,y)是 事件A={X≤x}与B={Y≤y} 同时发生的概率
-    *   2) 性质
-        *   ① 单调，F(X,Y)是 单调不减 函数
-            *   即 单增or取等 ![](https://api2.mubu.com/v3/document_image/c26b1f77-bdac-4acb-8e4f-5c71373c1e6d-15201174.jpg)
-        *   ② 右连续
-        *   ③ 有界性
-        *   ④ 非负性
-            *   对任意$x_1 < x_2$ $y_1 < y_2$ 有 ![](https://api2.mubu.com/v3/document_image/0deb4cf1-cab7-4286-923f-9ea52ff86c67-15201174.jpg)
-*   C. <span style="color:blue;">边缘</span><span style="color:darkorange;">分布函数</span>
-    *   1) 基本定义
-        *   设定: 联合分布函数$F(X,Y)$
-        *   随机变量 $X$ 、$Y$ 的分布函数<span style="color:blue;">$F_X(x)$</span> 、<span style="color:blue;">$F_Y(x)$</span>
-            *   称为$(X,Y)$ 关于X 和 关于Y 的 <span style="color:blue;">边缘</span><span style="color:darkorange;">分布函数</span>
-    *   2) 性质
-        *   a. 推导
-            *   i
-                *   ![](https://api2.mubu.com/v3/document_image/e28ace47-8b58-40db-bb4d-d4cf7c99683e-15201174.jpg)
-            *   ii
-                *   ![](https://api2.mubu.com/v3/document_image/d87f0213-5c9c-48d1-8d34-2c5510759a9e-15201174.jpg)
-                *   ![](https://api2.mubu.com/v3/document_image/b4a29c99-56d6-487e-a079-a126ffaab532-15201174.jpg)
-        *   b. 结论
-            *   $F_X(x)=F(x,+\infty)$ //Y同理
+#### A. 概念
+*   1) n维随机变量
+    *   <span style="color:blue;">n</span>个<span style="color:blue;">随机变量</span>$X_1,X_2,\dots,X_n$定义在 同一个 样本空间Ω 上
+    *   称 其 为 <u>n维</u>**随机变量** or <u>n维 </u>随机<span style="color:darkorange;">向量</span>
+        *   $X_i$ 称为 第i个分量
+*   2) 二维随机变量
+    *   当n=2时，记为 $(X,Y)$
+#### B. 联合<span style="color:darkorange;">分布函数</span>
+*   1) 概念
+    *   ① n元函数:
+        *   ![](https://api2.mubu.com/v3/document_image/cc0cc246-2e31-406a-8a7f-d06b842fbc48-15201174.jpg)
+            *   n维随机变量的 联合<span style="color:darkorange;">分布函数</span>
+    *   ② 当n=2时，二元函数
+        *   ![](https://api2.mubu.com/v3/document_image/74687f79-2716-4ad8-9ef3-ae93d2424bb7-15201174.jpg)
+        *   记为 $(X,Y)$~$F(x,y)$
+        *   F(x,y)是 事件A={X≤x}与B={Y≤y} 同时发生的概率
+*   2) 性质
+    *   ① 单调，F(X,Y)是 单调不减 函数
+        *   即 单增or取等 ![](https://api2.mubu.com/v3/document_image/c26b1f77-bdac-4acb-8e4f-5c71373c1e6d-15201174.jpg)
+    *   ② 右连续
+    *   ③ 有界性
+    *   ④ 非负性
+        *   对任意$x_1 < x_2$ $y_1 < y_2$ 有 ![](https://api2.mubu.com/v3/document_image/0deb4cf1-cab7-4286-923f-9ea52ff86c67-15201174.jpg)
+#### C. <span style="color:blue;">边缘</span><span style="color:darkorange;">分布函数</span>
+*   1) 基本定义
+    *   设定: 联合分布函数$F(X,Y)$
+    *   随机变量 $X$ 、$Y$ 的分布函数<span style="color:blue;">$F_X(x)$</span> 、<span style="color:blue;">$F_Y(x)$</span>
+        *   称为$(X,Y)$ 关于X 和 关于Y 的 <span style="color:blue;">边缘</span><span style="color:darkorange;">分布函数</span>
+*   2) 性质
+    *   a. 推导
+        *   i
+            *   ![](https://api2.mubu.com/v3/document_image/e28ace47-8b58-40db-bb4d-d4cf7c99683e-15201174.jpg)
+        *   ii
+            *   ![](https://api2.mubu.com/v3/document_image/d87f0213-5c9c-48d1-8d34-2c5510759a9e-15201174.jpg)
+            *   ![](https://api2.mubu.com/v3/document_image/b4a29c99-56d6-487e-a079-a126ffaab532-15201174.jpg)
+    *   b. 结论
+        *   $F_X(x)=F(x,+\infty)$ //Y同理
 
 </ul>
 
@@ -523,77 +523,77 @@
 
 <ul>
 
-*   **1) 概率密度** **$f(x,y)$**
-    *   a. 定义
-        *   联合分布函数F(X,Y)可表示为
-            *   ![](https://api2.mubu.com/v3/document_image/e87cc0ec-968f-4e93-9654-9b2f3eb41436-15201174.jpg)
-        *   称
-            *   $(X,Y)$为 二维连续型随机变量
-            *   $f(x,y)$ 为$(X,Y)$的概率密度
-                *   记为$(X,Y)$~$f(x,y)$
-    *   b. f(x,y)是概率密度的 充要条件
-        *   ![](https://api2.mubu.com/v3/document_image/b74af039-db8f-47e9-bd19-31259e3e0517-15201174.jpg)
-*   **2) 联合<span style="color:darkorange;">分布函数</span> **与 概率密度 | <span style="color:green;">边缘概率密度 | <span style="color:blue;">条件概率密度</span></span>**
-    *   a. 联合<span style="color:darkorange;">分布函数 </span>$F(X,Y)$<span style="color:darkorange;"> </span>与 概率密度 $f(x,y)$
-        *   i. $G$ 为平面上的某区域
-            *   则 ![](https://api2.mubu.com/v3/document_image/ae4e9e4c-c892-4f91-a46b-0de809a9c8a7-15201174.jpg)
-        *   ii. $f(x,y)$ 在点(x,y)处连续
-            *   则 ![](https://api2.mubu.com/v3/document_image/63a5adb8-e4b4-4d23-bf6a-3c898c583b0a-15201174.jpg)
-        *   iii. $F(x,y)$ 连续且可导
-            *   则
-                *   (X,Y)是连续型随机变量
-                *   概率密度为
-                    *   ![](https://api2.mubu.com/v3/document_image/afaffc1a-a76c-4984-b335-00a6c2d5e3bc-15201174.jpg)
-    *   b. <span style="color:green;">边缘</span>概率密度
-        *   边缘分布函数 可表示为
-            *   ![](https://api2.mubu.com/v3/document_image/0c42bee8-c4f7-453d-832b-565235d8ffcb-15201174.jpg)
-        *   称
-            *   ① 对X
-                *   $X$是连续型随机变量
-                *   其概率密度为
-                    *   $f_X(x)$
-                        *   ![](https://api2.mubu.com/v3/document_image/df974527-d985-49d0-8fcb-3639b5da7b85-15201174.jpg)
-            *   ② 对y
-                *   $Y$是连续型随机变量
-                *   其概率密度为
-                    *   $f_Y(y)$
-                        *   ![](https://api2.mubu.com/v3/document_image/a919d367-310d-4dd9-9e2b-93161246ba1c-15201174.jpg)
-    *   c. <span style="color:blue;">条件</span>概率密度
-        *   a. 定义
-            *   设定：$(X,Y)$ ~ $f(X,Y)$ ,边缘概率密度$f_X(x)$ or$f_Y(y)$ >0
-                *   称
-                    *   ① X=x条件
-                        *   ![](https://api2.mubu.com/v3/document_image/234fb472-e52d-479b-8080-8c22c67ee4ad-15201174.jpg)
-                        *   为Y在"X=x"条件下的 条件概率密度
-                    *   ② Y条件
-                        *   ![](https://api2.mubu.com/v3/document_image/363cad14-63b4-4953-878e-bc30ebd040a3-15201174.jpg)
-                        *   为X在"Y=y"条件下的 条件概率密度
-        *   b. 概率密度 乘法公式
-            *   ![](https://api2.mubu.com/v3/document_image/1a2a6f37-c70e-48fa-940f-4c281a806b91-15201174.jpg)
-        *   c. 条件分布函数
-            *   ① X=x条件(x为常量
-                *   ![](https://api2.mubu.com/v3/document_image/1352b8af-746b-469b-8d4e-b73053ff30ba-15201174.jpg)
-            *   ② Y=y条件(y为常量
-                *   ![](https://api2.mubu.com/v3/document_image/cab164bd-c364-4236-8f92-c0e3a3fcc5ce-15201174.jpg)
-*   **3) 常见的二维分布**
-    *   按 概率密度f(x,y) 判断
-        *   a. 二维均匀分布
+##### 1) 概率密度 **$f(x,y)$**
+*   a. 定义
+    *   联合分布函数F(X,Y)可表示为
+        *   ![](https://api2.mubu.com/v3/document_image/e87cc0ec-968f-4e93-9654-9b2f3eb41436-15201174.jpg)
+    *   称
+        *   $(X,Y)$为 二维连续型随机变量
+        *   $f(x,y)$ 为$(X,Y)$的概率密度
+            *   记为$(X,Y)$~$f(x,y)$
+*   b. f(x,y)是概率密度的 充要条件
+    *   ![](https://api2.mubu.com/v3/document_image/b74af039-db8f-47e9-bd19-31259e3e0517-15201174.jpg)
+#####  2) 联合<span style="color:darkorange;">分布函数</span> 与 概率密度 | <span style="color:green;">边缘概率密度 | <span style="color:blue;">条件概率密度</span></span>
+*   a. 联合<span style="color:darkorange;">分布函数 </span>$F(X,Y)$<span style="color:darkorange;"> </span>与 概率密度 $f(x,y)$
+    *   i. $G$ 为平面上的某区域
+        *   则 ![](https://api2.mubu.com/v3/document_image/ae4e9e4c-c892-4f91-a46b-0de809a9c8a7-15201174.jpg)
+    *   ii. $f(x,y)$ 在点(x,y)处连续
+        *   则 ![](https://api2.mubu.com/v3/document_image/63a5adb8-e4b4-4d23-bf6a-3c898c583b0a-15201174.jpg)
+    *   iii. $F(x,y)$ 连续且可导
+        *   则
+            *   (X,Y)是连续型随机变量
             *   概率密度为
-                *   ![](https://api2.mubu.com/v3/document_image/a25732b4-e743-420d-a18b-77080fc213fe-15201174.jpg)
-                    *   其中$S_D$为区域D的面积
-        *   b. 二维正态分布
-            *   i. 定义
-                *   f(x,y)为
-                    *   ![](https://api2.mubu.com/v3/document_image/980962a7-c665-4a89-bc27-c48a71e1f98d-15201174.jpg)
-                *   称(X,Y)服从参数为$\mu_1,\mu_2,\sigma_1^2,\sigma_1^2,\rho$ 的二维正态分布
-                    *   记为 ![](https://api2.mubu.com/v3/document_image/06273557-f8be-49f2-9738-a513156d2d0a-15201174.jpg)
-            *   ii. 阐述
-                *   $X$ ~ $N(\mu_1,\sigma_1^2)$ ,$Y$ ~ $N(\mu_2,\sigma_2^2)$ ,ρ为X 与 Y 的相关系数
-                    *   即 ![](https://api2.mubu.com/v3/document_image/6c2424a4-c889-43e4-b520-15e4d7922f46-15201174.jpg)
-                *   ② $X,Y$的条件分布都是正态分布
-                *   ③ $aX+bY$ (a≠0或b≠0) 服从正态分布
-                *   ④ $X$与$Y$相互独立的充要条件
-                    *   $X$与$Y$ 不相关 即 ρ=0
+                *   ![](https://api2.mubu.com/v3/document_image/afaffc1a-a76c-4984-b335-00a6c2d5e3bc-15201174.jpg)
+*   b. <span style="color:green;">边缘</span>概率密度
+    *   边缘分布函数 可表示为
+        *   ![](https://api2.mubu.com/v3/document_image/0c42bee8-c4f7-453d-832b-565235d8ffcb-15201174.jpg)
+    *   称
+        *   ① 对X
+            *   $X$是连续型随机变量
+            *   其概率密度为
+                *   $f_X(x)$
+                    *   ![](https://api2.mubu.com/v3/document_image/df974527-d985-49d0-8fcb-3639b5da7b85-15201174.jpg)
+        *   ② 对y
+            *   $Y$是连续型随机变量
+            *   其概率密度为
+                *   $f_Y(y)$
+                    *   ![](https://api2.mubu.com/v3/document_image/a919d367-310d-4dd9-9e2b-93161246ba1c-15201174.jpg)
+*   c. <span style="color:blue;">条件</span>概率密度
+    *   a. 定义
+        *   设定：$(X,Y)$ ~ $f(X,Y)$ ,边缘概率密度$f_X(x)$ or$f_Y(y)$ >0
+            *   称
+                *   ① X=x条件
+                    *   ![](https://api2.mubu.com/v3/document_image/234fb472-e52d-479b-8080-8c22c67ee4ad-15201174.jpg)
+                    *   为Y在"X=x"条件下的 条件概率密度
+                *   ② Y条件
+                    *   ![](https://api2.mubu.com/v3/document_image/363cad14-63b4-4953-878e-bc30ebd040a3-15201174.jpg)
+                    *   为X在"Y=y"条件下的 条件概率密度
+    *   b. 概率密度 乘法公式
+        *   ![](https://api2.mubu.com/v3/document_image/1a2a6f37-c70e-48fa-940f-4c281a806b91-15201174.jpg)
+    *   c. 条件分布函数
+        *   ① X=x条件(x为常量
+            *   ![](https://api2.mubu.com/v3/document_image/1352b8af-746b-469b-8d4e-b73053ff30ba-15201174.jpg)
+        *   ② Y=y条件(y为常量
+            *   ![](https://api2.mubu.com/v3/document_image/cab164bd-c364-4236-8f92-c0e3a3fcc5ce-15201174.jpg)
+#####  3) 常见的二维分布
+*   按 概率密度f(x,y) 判断
+    *   a. 二维均匀分布
+        *   概率密度为
+            *   ![](https://api2.mubu.com/v3/document_image/a25732b4-e743-420d-a18b-77080fc213fe-15201174.jpg)
+                *   其中$S_D$为区域D的面积
+    *   b. 二维正态分布
+        *   i. 定义
+            *   f(x,y)为
+                *   ![](https://api2.mubu.com/v3/document_image/980962a7-c665-4a89-bc27-c48a71e1f98d-15201174.jpg)
+            *   称(X,Y)服从参数为$\mu_1,\mu_2,\sigma_1^2,\sigma_1^2,\rho$ 的二维正态分布
+                *   记为 ![](https://api2.mubu.com/v3/document_image/06273557-f8be-49f2-9738-a513156d2d0a-15201174.jpg)
+        *   ii. 阐述
+            *   $X$ ~ $N(\mu_1,\sigma_1^2)$ ,$Y$ ~ $N(\mu_2,\sigma_2^2)$ ,ρ为X 与 Y 的相关系数
+                *   即 ![](https://api2.mubu.com/v3/document_image/6c2424a4-c889-43e4-b520-15e4d7922f46-15201174.jpg)
+            *   ② $X,Y$的条件分布都是正态分布
+            *   ③ $aX+bY$ (a≠0或b≠0) 服从正态分布
+            *   ④ $X$与$Y$相互独立的充要条件
+                *   $X$与$Y$ 不相关 即 ρ=0
 
 </ul>
 
@@ -764,7 +764,7 @@
 
 <ul>
 
-## 1 一维随机变量的<span style="color:blue;">数字</span><span style="color:darkorange;">特征</span>
+## 一维随机变量的<span style="color:blue;">数字</span><span style="color:darkorange;">特征</span>
 
 <ul>
 
@@ -872,48 +872,48 @@
 
 </ul>
 
-## 2 <span style="color:blue;">二维</span>随机变量的数字特征
+## <span style="color:blue;">二维</span>随机变量的数字特征
 
 <ul>
 
-*   (1) 二维<u>随机变量函数</u>的$E[g(X,Y)]$
-    *   A. 离散型
-        *   ![](https://api2.mubu.com/v3/document_image/69037ab3-e13f-4d06-86d0-c70d4da1ed5c-15201174.jpg)
-    *   B. 连续型
-        *   ![](https://api2.mubu.com/v3/document_image/e839dec6-c2db-4d97-931f-09ffceac8d5f-15201174.jpg)
-*   (2) 随机变量的<span style="color:green;">协</span><span style="color:blue;">方差</span>与相关系数
-    *   A. 概念
-        *   1) <span style="color:green;"> 协</span><span style="color:blue;">方差</span>
-            *   $Cov(X,Y)$
-                *   描述 随机变量$X,Y$ 间偏差的 <span style="color:blue;">关联</span><span style="color:darkorange;">程度</span>
-                *   $Cov(X, Y)$
-                *   $= E\left[\left(X - E[X]\right)\left(Y - E[Y]\right)\right]$
-                *   =<span style="color:blue;"> $E[XY] - E[X]E[Y]$</span>
-        *   2) 相关系数$\rho_{xy}$
-            *   X,Y之间 <span style="color:darkorange;">线性</span>相关程度 的度量
-            *   $\rho_{xy}$ =$\frac{Cov(X,Y)}{\sqrt{DX}\sqrt{DY}}$
-                *   若$\rho_{xy}$ =0，X与Y 不相关
-                *   若$\rho_{xy}$ ≠0，X与Y 相关
-    *   B. 性质
-        *   1) 对称性
-            *   ![](https://api2.mubu.com/v3/document_image/5633e6d2-ee27-4378-9aa3-f7e3e7638f76-15201174.jpg)
-            *   ![](https://api2.mubu.com/v3/document_image/4c4aeda6-2c84-4b1c-974c-3d7c6f65a187-15201174.jpg)
-        *   2) 线性性
-            *   a. 常数
-                *   ![](https://api2.mubu.com/v3/document_image/04b7da4a-9870-409f-9c17-7a6f9d4617c3-15201174.jpg)
-                *   ![](https://api2.mubu.com/v3/document_image/4f37c042-3bae-4694-9cd1-e3930b1feaac-15201174.jpg)
-            *   b. X,Y
-                *   ![](https://api2.mubu.com/v3/document_image/cfa8e6b3-ff82-4cd9-86ce-d566ccc72bac-15201174.jpg)
-        *   3) 单相关系数$\rho_{xy}$
-            *   a. $\rho_{xy}$ 的有界性
-                *   $|\rho_{xy}|$≤1
-            *   b. 线性关系下的$\rho_{xy}$
-                *   若$Y=aX+b$
-                *   则 ![](https://api2.mubu.com/v3/document_image/ba3202e4-a355-4329-b220-0745a938f5ce-15201174.jpg)
+### (1) 二维<u>随机变量函数</u>的$E[g(X,Y)]$
+*   A. 离散型
+    *   ![](https://api2.mubu.com/v3/document_image/69037ab3-e13f-4d06-86d0-c70d4da1ed5c-15201174.jpg)
+*   B. 连续型
+    *   ![](https://api2.mubu.com/v3/document_image/e839dec6-c2db-4d97-931f-09ffceac8d5f-15201174.jpg)
+### (2) 随机变量的<span style="color:green;">协</span><span style="color:blue;">方差</span>与相关系数
+*   A. 概念
+    *   1) <span style="color:green;"> 协</span><span style="color:blue;">方差</span>
+        *   $Cov(X,Y)$
+            *   描述 随机变量$X,Y$ 间偏差的 <span style="color:blue;">关联</span><span style="color:darkorange;">程度</span>
+            *   $Cov(X, Y)$
+            *   $= E\left[\left(X - E[X]\right)\left(Y - E[Y]\right)\right]$
+            *   =<span style="color:blue;"> $E[XY] - E[X]E[Y]$</span>
+    *   2) 相关系数$\rho_{xy}$
+        *   X,Y之间 <span style="color:darkorange;">线性</span>相关程度 的度量
+        *   $\rho_{xy}$ =$\frac{Cov(X,Y)}{\sqrt{DX}\sqrt{DY}}$
+            *   若$\rho_{xy}$ =0，X与Y 不相关
+            *   若$\rho_{xy}$ ≠0，X与Y 相关
+*   B. 性质
+    *   1) 对称性
+        *   ![](https://api2.mubu.com/v3/document_image/5633e6d2-ee27-4378-9aa3-f7e3e7638f76-15201174.jpg)
+        *   ![](https://api2.mubu.com/v3/document_image/4c4aeda6-2c84-4b1c-974c-3d7c6f65a187-15201174.jpg)
+    *   2) 线性性
+        *   a. 常数
+            *   ![](https://api2.mubu.com/v3/document_image/04b7da4a-9870-409f-9c17-7a6f9d4617c3-15201174.jpg)
+            *   ![](https://api2.mubu.com/v3/document_image/4f37c042-3bae-4694-9cd1-e3930b1feaac-15201174.jpg)
+        *   b. X,Y
+            *   ![](https://api2.mubu.com/v3/document_image/cfa8e6b3-ff82-4cd9-86ce-d566ccc72bac-15201174.jpg)
+    *   3) 单相关系数$\rho_{xy}$
+        *   a. $\rho_{xy}$ 的有界性
+            *   $|\rho_{xy}|$≤1
+        *   b. 线性关系下的$\rho_{xy}$
+            *   若$Y=aX+b$
+            *   则 ![](https://api2.mubu.com/v3/document_image/ba3202e4-a355-4329-b220-0745a938f5ce-15201174.jpg)
 
 </ul>
 
-## 3 <span style="color:darkorange;">独立性</span>与相关性的判定
+## <span style="color:darkorange;">独立性</span>与相关性的判定
 
 <ul>
 
@@ -941,7 +941,7 @@
 
 </ul>
 
-## 1 大数定律
+## 大数定律
 
 <ul>
 
@@ -951,7 +951,7 @@
 
 </ul>
 
-## 2 <span style="color:darkorange;">中心极限</span>定理
+## <span style="color:darkorange;">中心极限</span>定理
 
 <ul>
 
@@ -985,7 +985,7 @@
 
 <ul>
 
-## 0 <span style="color:darkorange;">总体</span>与<span style="color:blue;">样本</span>
+## <span style="color:darkorange;">总体</span>与<span style="color:blue;">样本</span>
 
 <ul>
 
@@ -1031,7 +1031,7 @@
 
 </ul>
 
-## 1 <span style="color:green;">统计量</span>及其<span style="color:darkorange;">分布</span>(三大分布)
+## <span style="color:green;">统计量</span>及其<span style="color:darkorange;">分布</span>(三大分布)
 
 <ul>
 
@@ -1194,7 +1194,7 @@
 
 </ul>
 
-## 2 参数<span style="color:darkorange;">估计</span>
+## 参数<span style="color:darkorange;">估计</span>
 
 <ul>
 
