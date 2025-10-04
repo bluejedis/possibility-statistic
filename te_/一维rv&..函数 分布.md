@@ -22,9 +22,14 @@
                         - 极左0，极右1
                         - 对应区间，write分布列端点sum
                             - ↑左闭 右开
-                - P
-                    - 落在范围内的分布列$\Sigma P$
-                        - eg. P{0≤x≤1}=P{x=0}
+                - 概率分布P
+                    - base
+                        - 可求分布列
+                        -  落在范围内的分布列$\Sigma P$
+                            - eg. P{0≤x≤1}=P{x=0}
+                        - --
+                    - utilize5大分布conclude
+                        - [见下](#section1)
                 ---
             - 抽象
                 - judge: 复合后的$F_1(x)$ $F_2(x)$、$f_1(x)$ $f_2(x)$, whether 仍是
@@ -56,8 +61,8 @@
         - 由typical分布/ f(x)
             - 分布：
                 - 正态分布
-                    - $X\~N(\mu,\sigma^2$
-                        - $P{a＜x＜b}=\Phi(\frac{b-\mu}{\sigma})-\Phi(\frac{a-\mu}{\sigma})$
+                    - $X \~N(\mu,\sigma^2)$
+                        - $P \{a＜x＜b \}=\Phi(\frac{b-\mu}{\sigma})-\Phi(\frac{a-\mu}{\sigma})$
                             - eg.$P{x＜0}$
                                 - =$\Phi(\frac{0-\mu}{\sigma})$
                                     - =$1-\Phi(\frac{\mu}{\sigma})$
@@ -67,23 +72,55 @@
                         - --
                 - n次独立重复
                     - >Y~B(n,p)
-                    - P{Y=k}=$C_n^kp(1-p)^(n-k)$
+                    - P{Y=k}=$C_n^kp(1-p)^{(n-k)}$
                         - eg.P{Y=3}=$C_3^2p(1-p)$
-                            - p由$P{X≤\frac{1}{2}}$确定
+                            - p由$P\{X≤\frac{1}{2}\}$确定
                                 - ↑Y: 对 X 3次独立重复实验 事件${x≤\frac{1}{2}}$出现次数
-                                    - ↑$p=P{X≤\frac{1}{2}}=\int_0^\frac{1}{2} f(x)dx$
+                                    - ↑$p=P\{X≤\frac{1}{2}\}=\int_0^\frac{1}{2} f(x)dx$
             - f(x):
-                - $P{a＜x＜b}$
+                - $P\{a＜x＜b\}$
                     - $\int_a^b f(x)dx$
                     - or求对应F(x)
-                        - =$P{x＜b}-P{x≤a}$
+                        - =$P\{x＜b\}-P\{x≤a\}$
                         - =$F(b-0)-F(a)$
     - --
-# typical 分布(5+3                  
-- 离散
+<a id="section1"></a>
+# typical 分布$P\{x=k\}$ (5+3                  
+>根据特点，judge类型
+- 离散 //left具体eg建模
+    - 0-1
+        - q=1-p
+    - 二项分布
+        - n重伯努利 事件A次数X~B(n,p)
+            - $C_n^k p^k(1-p)^{n-k}$
+                - ↑二项：事件A 结果only 正反两种情况
+            - eg.3.2.11为什么要用1-P{x=0}
+    - 几何
+        - $p(1-p)^{k-1}$
+    - 超几何
+    - 泊松
+    - 
 - 连续
 # 1维rv Function分布
 - >Y=g(x)
 - 离散
+    - Y 接在 X分布列下
+        - 对应其p
+            - 有数值same项 need合并
 - 连续
+    - >等量代换，y作为原x的概率密度 积分区间
+        - P=｛Y≤y｝←？这是什么意思
+            - Y=g(x)替换→P={g(x)≤y}
+    - 证明
+        - match均匀分布
+    - 求分布函数$F_Y{y}$/概率密度$f_Y(y)$ 
+- --
+- 函数的分布
+    - also have 分布函数
+- --
+- 求2+1
+    - 离散
+        - p_i F(x), P
+    - 连续
+        - F(x) f(x), P
 
