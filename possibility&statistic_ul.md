@@ -1,13 +1,13 @@
-# 随机事件 与 概率
+# <span style="color: gray;">随机事件 与 概率
 
 <ul>
 
 
-## 0 基本<span style="color:darkorange;">概念</span>
+## <span style="color: gray;">0 基本<span style="color:darkorange;">概念</span>
 
 <ul>
 
-#### a. 随机试验
+#### <span style="color: gray;">a. 随机试验
 
 <ul>
 
@@ -18,7 +18,7 @@
 
 </ul>
 
-#### b. 随机事件
+#### <span style="color: gray;">b. 随机事件
 
 <ul>
 
@@ -29,7 +29,7 @@
 
 </ul>
 
-#### c. 样本空间
+#### <span style="color: gray;">c. 样本空间
 
 <ul>
 
@@ -44,11 +44,11 @@
 
 
 
-## 1 事件的<span style="color:blue;">关系</span>与<span style="color:green;">运算</span>
+## <span style="color: gray;">1 事件的<span style="color:blue;">关系</span>与<span style="color:green;">运算</span>
 
 <ul>
 
-#### (1) 关系与运算
+#### <span style="color: gray;">(1) 关系与运算
 
 <ul>
 
@@ -69,7 +69,7 @@
     *   和（并）
     *   差
     *   积（交）
-##### 运算法则
+##### <span style="color: gray;">运算法则
 
 <ul>
 
@@ -85,7 +85,7 @@
 
 </ul>
 
-#### (2) 概率与概型
+#### <span style="color: gray;">(2) 概率与概型
 
 <ul>
 
@@ -133,15 +133,15 @@
 
 </ul>
 
-## 性质：
+## <span style="color: gray;">性质：
 
 <ul>
 
-### 1 概率的基本<span style="color:darkorange;">性质</span>与<span style="color:blue;">公式</span>
+### <span style="color: gray;">1 概率的基本<span style="color:darkorange;">性质</span>与<span style="color:blue;">公式</span>
 
 <ul>
 
-#### (1) 性质
+#### <span style="color: gray;">(1) 性质
 
 <ul>
 
@@ -154,7 +154,7 @@
 
 </ul>
 
-#### (2) 公式
+#### <span style="color: gray;">(2) 公式
 
 <ul>
 
@@ -188,7 +188,7 @@
 
 </ul>
 
-### 2 <span style="color:purple;">独立</span>性
+### <span style="color: gray;">2 <span style="color:purple;">独立</span>性
 
 <ul>
 
@@ -217,11 +217,11 @@
 
 </ul>
 
-# <span style="color:blue;">一维</span>随机变量 及其 分布
+# <span style="color: gray;"><span style="color:blue;">一维</span>随机变量 及其 分布
 
 <ul>
 
-## 随机变量
+## <span style="color: gray;">随机变量
 
 <ul>
 
@@ -237,7 +237,7 @@
 
 </ul>
 
-## <span style="color:darkorange;">分布</span><span style="color:blue;">函数</span>
+## <span style="color: gray;"><span style="color:darkorange;">分布</span><span style="color:blue;">函数</span>
 
 <ul>
 
@@ -269,11 +269,11 @@
 
 <ul>
 
-## A. 一维<span style="color:green;">离散</span>型随机变量
+## <span style="color: gray;">A. 一维<span style="color:green;">离散</span>型随机变量
 
 <ul>
 
-###  **(1) 离散型随机变量 | 概率分布**
+### <span style="color: gray;"> **(1) 离散型随机变量 | 概率分布**
 *   a. 离散型
     *   $X$ 只能取有限个
         *   ![](https://api2.mubu.com/v3/document_image/dd8216b1-8d7f-4277-b77c-e6e3223c3e67-15201174.jpg)
@@ -286,7 +286,7 @@
             *   ![](https://api2.mubu.com/v3/document_image/f78cd6ff-265f-4c4c-aeac-9023d4026faa-15201174.jpg)
     *   2) **数列** 是 离散型随机变量 的<u>概率分布 </u>的充要条件:
         *   ![](https://api2.mubu.com/v3/document_image/5e0ca1b5-d521-43ed-b22a-33fd3cdeaad3-15201174.jpg)
-###  **(2) <span style="color:darkorange;"><u>五大分布</u></span>**
+### <span style="color: gray;"> **(2) <span style="color:darkorange;"><u>五大分布</u></span>**
 *   按 概率分布type 分
     *   **0—1分布**B(1.p)
         *   设定
@@ -327,11 +327,11 @@
 
 </ul>
 
-## B. 一维<span style="color:blue;">连续</span>型随机变量
+## <span style="color: gray;">B. 一维<span style="color:blue;">连续</span>型随机变量
 
 <ul>
 
-### (1) 连续型随机变量 | 概率密度
+### <span style="color: gray;">(1) 连续型随机变量 | 概率密度
 *   a. 基本定义
     *   由 <u>分布函数</u> <span style="color:blue;">type</span> <span style="color:green;">确定</span> X类型
         *   $F(x)=\int_{-\infty}^x {f(t)} \,{\rm d}t$
@@ -350,7 +350,7 @@
             *   特别地
                 *   不管分布函数区间开闭， ![](https://api2.mubu.com/v3/document_image/64d435f3-e72e-48e8-aa48-dd832a4460e7-15201174.jpg)
                 *   均可 用 概率密度 在区间上的积分表示 ![](https://api2.mubu.com/v3/document_image/34ef9683-b1f9-46d2-973a-f77232596538-15201174.jpg)
-### (2) <span style="color:darkorange;">三大分布</span>
+### <span style="color: gray;">(2) <span style="color:darkorange;">三大分布</span>
 *   由 概率密度<span style="color:green;">f(x)</span> 和 分布函数<span style="color:blue;">F(x) </span>共同确定 //仅正态分布 仅由f(x)确定
     *   均匀分布 U(a,b)
         *   ![](https://api2.mubu.com/v3/document_image/01762cd4-e32e-4ec2-9725-a5f13e974e1d-15201174.jpg)
@@ -388,16 +388,16 @@
 
 </ul>
 
-##  ~<span style="color:darkorange;">函数</span>的分布
+## <span style="color: gray;"> ~<span style="color:darkorange;">函数</span>的分布
 
 <ul>
 
-### A. 随机变量函数 //
+### <span style="color: gray;">A. 随机变量函数 //
 *   X、Y都是 随机变量,函数$y=g(x)$
 *   称 $Y=g(x)$ 是 随机变量X的函数
     *   eg.
         *   ![](https://api2.mubu.com/v3/document_image/d372b870-6e64-4a97-b492-057717f8db9c-15201174.jpg)
-### B. 随机变量函数的分布
+### <span style="color: gray;">B. 随机变量函数的分布
 *   1) 离散型→离散型
     *   X是离散型 随机变量，Y也是离散型
         *   X概率分布
@@ -419,26 +419,26 @@
 
 </ul>
 
-# <span style="color:green;">多维</span>.. 
+# <span style="color: gray;"><span style="color:green;">多维</span>.. 
 
 <ul>
 
-## <span style="color:darkorange;">basic</span>
+## <span style="color: gray;"><span style="color:darkorange;">basic</span>
 
 <ul>
 
-### (1) 二维（n维）随机变量
+### <span style="color: gray;">(1) 二维（n维）随机变量
 
 <ul>
 
-#### A. 概念
+#### <span style="color: gray;">A. 概念
 *   1) n维随机变量
     *   <span style="color:blue;">n</span>个<span style="color:blue;">随机变量</span>$X_1,X_2,\dots,X_n$定义在 同一个 样本空间Ω 上
     *   称 其 为 <u>n维</u>**随机变量** or <u>n维 </u>随机<span style="color:darkorange;">向量</span>
         *   $X_i$ 称为 第i个分量
 *   2) 二维随机变量
     *   当n=2时，记为 $(X,Y)$
-#### B. 联合<span style="color:darkorange;">分布函数</span>
+#### <span style="color: gray;">B. 联合<span style="color:darkorange;">分布函数</span>
 *   1) 概念
     *   ① n元函数:
         *   ![](https://api2.mubu.com/v3/document_image/cc0cc246-2e31-406a-8a7f-d06b842fbc48-15201174.jpg)
@@ -454,7 +454,7 @@
     *   ③ 有界性
     *   ④ 非负性
         *   对任意$x_1 < x_2$ $y_1 < y_2$ 有 ![](https://api2.mubu.com/v3/document_image/0deb4cf1-cab7-4286-923f-9ea52ff86c67-15201174.jpg)
-#### C. <span style="color:blue;">边缘</span><span style="color:darkorange;">分布函数</span>
+#### <span style="color: gray;">C. <span style="color:blue;">边缘</span><span style="color:darkorange;">分布函数</span>
 *   1) 基本定义
     *   设定: 联合分布函数$F(X,Y)$
     *   随机变量 $X$ 、$Y$ 的分布函数<span style="color:blue;">$F_X(x)$</span> 、<span style="color:blue;">$F_Y(x)$</span>
@@ -471,11 +471,11 @@
 
 </ul>
 
-### (2) <span style="color:green;">离散</span>型~ 与 <span style="color:blue;">连续</span>型~
+### <span style="color: gray;">(2) <span style="color:green;">离散</span>型~ 与 <span style="color:blue;">连续</span>型~
 
 <ul>
 
-#### A. 二维 <span style="color:green;">离散</span>型 随机变量
+#### <span style="color: gray;">A. 二维 <span style="color:green;">离散</span>型 随机变量
 
 <ul>
 
@@ -519,11 +519,11 @@
 
 </ul>
 
-#### B. 二维 <span style="color:blue;">连续</span>型 随机变量
+#### <span style="color: gray;">B. 二维 <span style="color:blue;">连续</span>型 随机变量
 
 <ul>
 
-##### 1) 概率密度 **$f(x,y)$**
+##### <span style="color: gray;">1) 概率密度 **$f(x,y)$**
 *   a. 定义
     *   联合分布函数F(X,Y)可表示为
         *   ![](https://api2.mubu.com/v3/document_image/e87cc0ec-968f-4e93-9654-9b2f3eb41436-15201174.jpg)
@@ -533,7 +533,7 @@
             *   记为$(X,Y)$~$f(x,y)$
 *   b. f(x,y)是概率密度的 充要条件
     *   ![](https://api2.mubu.com/v3/document_image/b74af039-db8f-47e9-bd19-31259e3e0517-15201174.jpg)
-#####  2) 联合<span style="color:darkorange;">分布函数</span> 与 概率密度 | <span style="color:green;">边缘概率密度 | <span style="color:blue;">条件概率密度</span></span>
+##### <span style="color: gray;"> 2) 联合<span style="color:darkorange;">分布函数</span> 与 概率密度 | <span style="color:green;">边缘概率密度 | <span style="color:blue;">条件概率密度</span></span>
 *   a. 联合<span style="color:darkorange;">分布函数 </span>$F(X,Y)$<span style="color:darkorange;"> </span>与 概率密度 $f(x,y)$
     *   i. $G$ 为平面上的某区域
         *   则 ![](https://api2.mubu.com/v3/document_image/ae4e9e4c-c892-4f91-a46b-0de809a9c8a7-15201174.jpg)
@@ -575,7 +575,7 @@
             *   ![](https://api2.mubu.com/v3/document_image/1352b8af-746b-469b-8d4e-b73053ff30ba-15201174.jpg)
         *   ② Y=y条件(y为常量
             *   ![](https://api2.mubu.com/v3/document_image/cab164bd-c364-4236-8f92-c0e3a3fcc5ce-15201174.jpg)
-#####  3) 常见的二维分布
+##### <span style="color: gray;"> 3) 常见的二维分布
 *   按 概率密度f(x,y) 判断
     *   a. 二维均匀分布
         *   概率密度为
@@ -601,15 +601,15 @@
 
 </ul>
 
-## 性质-<span style="color:darkorange;">独立性</span>
+## <span style="color: gray;">性质-<span style="color:darkorange;">独立性</span>
 
 <ul>
 
-### (1) <span style="color:darkorange;">概念</span>
+### <span style="color: gray;">(1) <span style="color:darkorange;">概念</span>
 
 <ul>
 
-#### a. <span style="color:green;">二维</span>随机变量$(X,Y)$
+#### <span style="color: gray;">a. <span style="color:green;">二维</span>随机变量$(X,Y)$
 
 <ul>
 
@@ -619,7 +619,7 @@
 
 </ul>
 
-#### b. <span style="color:blue;">n维</span>随机变量($X_1,X_2,\dots,X_n$)
+#### <span style="color: gray;">b. <span style="color:blue;">n维</span>随机变量($X_1,X_2,\dots,X_n$)
 
 <ul>
 
@@ -630,7 +630,7 @@
 
 </ul>
 
-#### c. 两组多维随机变量($X_1,X_2,\dots,X_n$)与($Y_1,Y_2,\dots,Y_n$)
+#### <span style="color: gray;">c. 两组多维随机变量($X_1,X_2,\dots,X_n$)与($Y_1,Y_2,\dots,Y_n$)
 
 <ul>
 
@@ -642,7 +642,7 @@
 
 </ul>
 
-### (2) 相互独立的<span style="color:darkorange;">充要</span><span style="color:blue;">条件</span>
+### <span style="color: gray;">(2) 相互独立的<span style="color:darkorange;">充要</span><span style="color:blue;">条件</span>
 
 <ul>
 
@@ -665,7 +665,7 @@
 
 </ul>
 
-### (3) <span style="color:green;">相互</span><span style="color:blue;">独立</span>的<span style="color:darkorange;">性质</span>
+### <span style="color: gray;">(3) <span style="color:green;">相互</span><span style="color:blue;">独立</span>的<span style="color:darkorange;">性质</span>
 
 <ul>
 
@@ -690,11 +690,11 @@
 
 </ul>
 
-## <u>多维</u>随机变量函数的<span style="color:darkorange;">分布</span>
+## <span style="color: gray;"><u>多维</u>随机变量函数的<span style="color:darkorange;">分布</span>
 
 <ul>
 
-### (1) 概念
+### <span style="color: gray;">(1) 概念
 
 <ul>
 
@@ -710,7 +710,7 @@
 
 </ul>
 
-### (2) 求法
+### <span style="color: gray;">(2) 求法
 
 <ul>
 
@@ -741,7 +741,7 @@
 
 </ul>
 
-### (3) <span style="color:green;">相互</span><span style="color:blue;">独立</span> 随机变量函数 的<span style="color:darkorange;">分布</span> | <span style="color:blue;">卷积</span>公式
+### <span style="color: gray;">(3) <span style="color:green;">相互</span><span style="color:blue;">独立</span> 随机变量函数 的<span style="color:darkorange;">分布</span> | <span style="color:blue;">卷积</span>公式
 
 <ul>
 
@@ -760,15 +760,15 @@
 
 </ul>
 
-# 03 <span style="color:blue;">数字</span><span style="color:darkorange;">特征</span>
+# <span style="color: gray;">03 <span style="color:blue;">数字</span><span style="color:darkorange;">特征</span>
 
 <ul>
 
-## 一维随机变量的<span style="color:blue;">数字</span><span style="color:darkorange;">特征</span>
+## <span style="color: gray;">一维随机变量的<span style="color:blue;">数字</span><span style="color:darkorange;">特征</span>
 
 <ul>
 
-### (1) 数学期望$E(X)$
+### <span style="color: gray;">(1) 数学期望$E(X)$
 
 <ul>
 
@@ -824,7 +824,7 @@
 
 </ul>
 
-### (2) 方差$DX$ | 标准差$\sigma(X)$
+### <span style="color: gray;">(2) 方差$DX$ | 标准差$\sigma(X)$
 
 <ul>
 
@@ -857,7 +857,7 @@
 
 </ul>
 
-### (3) <span style="color:blue;">切比雪夫</span><u>不等式</u>
+### <span style="color: gray;">(3) <span style="color:blue;">切比雪夫</span><u>不等式</u>
 
 <ul>
 
@@ -872,16 +872,16 @@
 
 </ul>
 
-## <span style="color:blue;">二维</span>随机变量的数字特征
+## <span style="color: gray;"><span style="color:blue;">二维</span>随机变量的数字特征
 
 <ul>
 
-### (1) 二维<u>随机变量函数</u>的$E[g(X,Y)]$
+### <span style="color: gray;">(1) 二维<u>随机变量函数</u>的$E[g(X,Y)]$
 *   A. 离散型
     *   ![](https://api2.mubu.com/v3/document_image/69037ab3-e13f-4d06-86d0-c70d4da1ed5c-15201174.jpg)
 *   B. 连续型
     *   ![](https://api2.mubu.com/v3/document_image/e839dec6-c2db-4d97-931f-09ffceac8d5f-15201174.jpg)
-### (2) 随机变量的<span style="color:green;">协</span><span style="color:blue;">方差</span>与相关系数
+### <span style="color: gray;">(2) 随机变量的<span style="color:green;">协</span><span style="color:blue;">方差</span>与相关系数
 *   A. 概念
     *   1) <span style="color:green;"> 协</span><span style="color:blue;">方差</span>
         *   $Cov(X,Y)$
@@ -913,7 +913,7 @@
 
 </ul>
 
-## <span style="color:darkorange;">独立性</span>与相关性的判定
+## <span style="color: gray;"><span style="color:darkorange;">独立性</span>与相关性的判定
 
 <ul>
 
@@ -924,11 +924,12 @@
 
 </ul>
 
-# 04 大数定律 与 <u>中心极限</u>定理
+# <span style="color: gray;">
+# <span style="color: gray;">04 大数定律 与 <u>中心极限</u>定理
 
 <ul>
 
-## 0 <u>依概率</u><span style="color:darkorange;">收敛</span>
+## <span style="color: gray;">0 <u>依概率</u><span style="color:darkorange;">收敛</span>
 
 <ul>
 
@@ -941,7 +942,7 @@
 
 </ul>
 
-## 大数定律
+## <span style="color: gray;">大数定律
 
 <ul>
 
@@ -951,11 +952,11 @@
 
 </ul>
 
-## <span style="color:darkorange;">中心极限</span>定理
+## <span style="color: gray;"><span style="color:darkorange;">中心极限</span>定理
 
 <ul>
 
-### (1) 列维-林德伯格定理 （<span style="color:blue;">独立 同分布</span>~）
+### <span style="color: gray;">(1) 列维-林德伯格定理 （<span style="color:blue;">独立 同分布</span>~）
 
 <ul>
 
@@ -966,7 +967,7 @@
 
 </ul>
 
-### (2) 棣莫弗-拉普拉斯定理 （<span style="color:green;">二项</span>分布~）
+### <span style="color: gray;">(2) 棣莫弗-拉普拉斯定理 （<span style="color:green;">二项</span>分布~）
 
 <ul>
 
@@ -981,15 +982,15 @@
 
 </ul>
 
-# 05 数理统计
+# <span style="color: gray;">05 数理统计
 
 <ul>
 
-## <span style="color:darkorange;">总体</span>与<span style="color:blue;">样本</span>
+## <span style="color: gray;"><span style="color:darkorange;">总体</span>与<span style="color:blue;">样本</span>
 
 <ul>
 
-### (1) <span style="color:darkorange;">总体</span> = 随机变量 <span style="color:darkorange;">X</span>
+### <span style="color: gray;">(1) <span style="color:darkorange;">总体</span> = 随机变量 <span style="color:darkorange;">X</span>
 
 <ul>
 
@@ -998,7 +999,7 @@
 
 </ul>
 
-### (2) <span style="color:blue;">样本</span> (抽样)
+### <span style="color: gray;">(2) <span style="color:blue;">样本</span> (抽样)
 
 <ul>
 
@@ -1015,7 +1016,7 @@
 
 </ul>
 
-### (3) <span style="color:blue;">样本</span><u>分布</u>
+### <span style="color: gray;">(3) <span style="color:blue;">样本</span><u>分布</u>
 
 <ul>
 
@@ -1031,15 +1032,15 @@
 
 </ul>
 
-## <span style="color:green;">统计量</span>及其<span style="color:darkorange;">分布</span>(三大分布)
+## <span style="color: gray;"><span style="color:green;">统计量</span>及其<span style="color:darkorange;">分布</span>(三大分布)
 
 <ul>
 
-### (1) <span style="color:green;">统计量</span>
+### <span style="color: gray;">(1) <span style="color:green;">统计量</span>
 
 <ul>
 
-#### A. 定义
+#### <span style="color: gray;">A. 定义
 
 <ul>
 
@@ -1051,7 +1052,7 @@
 
 </ul>
 
-#### B. <span style="color:darkorange;">常用</span><span style="color:green;">统计量</span>
+#### <span style="color: gray;">B. <span style="color:darkorange;">常用</span><span style="color:green;">统计量</span>
 
 <ul>
 
@@ -1078,7 +1079,7 @@
 
 </ul>
 
-#### 3) 性质
+#### <span style="color: gray;">3) 性质
 
 <ul>
 
@@ -1094,11 +1095,11 @@
 
 </ul>
 
-### (2) <span style="color:darkorange;">三大</span> 抽样分布
+### <span style="color: gray;">(2) <span style="color:darkorange;">三大</span> 抽样分布
 
 <ul>
 
-#### 1) <span style="color:blue;">$χ^2$</span>分布
+#### <span style="color: gray;">1) <span style="color:blue;">$χ^2$</span>分布
 
 <ul>
 
@@ -1130,7 +1131,7 @@
 
 </ul>
 
-#### 2) <span style="color:green;">$t$</span>分布
+#### <span style="color: gray;">2) <span style="color:green;">$t$</span>分布
 
 <ul>
 
@@ -1151,7 +1152,7 @@
 
 </ul>
 
-#### 3) <span style="color:darkorange;">$F$</span>分布
+#### <span style="color: gray;">3) <span style="color:darkorange;">$F$</span>分布
 
 <ul>
 
@@ -1174,7 +1175,7 @@
 
 </ul>
 
-### (3) 正态总体下的<u>常用结论</u>
+### <span style="color: gray;">(3) 正态总体下的<u>常用结论</u>
 
 <ul>
 
@@ -1194,15 +1195,15 @@
 
 </ul>
 
-## 参数<span style="color:darkorange;">估计</span>
+## <span style="color: gray;">参数<span style="color:darkorange;">估计</span>
 
 <ul>
 
-### (1) 参数的<span style="color:blue;">点</span><span style="color:darkorange;">估计</span>
+### <span style="color: gray;">(1) 参数的<span style="color:blue;">点</span><span style="color:darkorange;">估计</span>
 
 <ul>
 
-#### A. 概念
+#### <span style="color: gray;">A. 概念
 
 <ul>
 
@@ -1226,7 +1227,7 @@
 
 </ul>
 
-#### B. 方法
+#### <span style="color: gray;">B. 方法
 
 <ul>
 
@@ -1266,7 +1267,7 @@
 
 </ul>
 
-#### C. <span style="color:blue;">估计量</span>的<u>评价标准</u>
+#### <span style="color: gray;">C. <span style="color:blue;">估计量</span>的<u>评价标准</u>
 
 <ul>
 
@@ -1284,11 +1285,11 @@
 
 </ul>
 
-### (2) 参数的<span style="color:green;">区间</span><span style="color:darkorange;">估计</span>与<span style="color:blue;">假设</span><u>检验</u>
+### <span style="color: gray;">(2) 参数的<span style="color:green;">区间</span><span style="color:darkorange;">估计</span>与<span style="color:blue;">假设</span><u>检验</u>
 
 <ul>
 
-#### A. <span style="color:green;">区间</span>估计
+#### <span style="color: gray;">A. <span style="color:green;">区间</span>估计
 
 <ul>
 
@@ -1311,7 +1312,7 @@
 
 </ul>
 
-#### B. 假设检验
+#### <span style="color: gray;">B. 假设检验
 
 <ul>
 
